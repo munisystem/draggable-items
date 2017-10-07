@@ -12,15 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
             dragItem: undefined,
             items: [
                 {
-                    name: "Alice",
+                    content: "I want to read 'Microservice Architecture'.",
                     index: 0
                 },
                 {
-                    name: "Bob",
+                    content: "I go to buy this at Junkdo.",
                     index: 1
                 },
                 {
-                    name: "Carol",
+                    content: "I'm sad that 'Microservice Architecture' was sold out...",
                     index: 2
                 }
             ]

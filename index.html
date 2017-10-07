@@ -5,9 +5,16 @@
     <body>
         <script type="text/javascript" src="dist/bundle.js" charset="utf8"></script>
         <div id="app">
-            <ul class="collection">
-                <li class="collection-item" v-for="item in orderedItems" draggable="true" @dragstart="dragstart(item, $event)" @dragend="dragend($event)" @dragenter="dragenter(item)"> {{ item.name }} </li>
-            </ul>
+            <h2 class="center">Tweets</h2>
+            <div class="container">
+                <ul class="collection">
+                    <li class="collection-item avatar" v-for="item in orderedItems" draggable="true" @dragstart="dragstart(item, $event)" @dragend="dragend($event)" @dragenter="dragenter(item)">
+                        <img src="https://pbs.twimg.com/profile_images/704994692887281665/caozcbwZ_bigger.jpg" alt="" class="circle">
+                        <span class="title">@munisystem</span>
+                        <p> {{ item.content }} </p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>
