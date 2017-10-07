@@ -1,6 +1,8 @@
 import Vue from 'vue/dist/vue.esm'
 import _ from 'lodash'
 
+import 'materialize-css/dist/js/materialize.min.js'
+import 'materialize-css/dist/css/materialize.min.css'
 import './style.css'
 
 document.addEventListener('DOMContentLoaded', () => {
