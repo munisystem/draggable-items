@@ -1,5 +1,5 @@
 # draggable-items
-Draggable list of items for Vue.js
+Draggable list items for Vue.js
 
 ![DEMO](./_image/demo.gif)
 
