@@ -1,7 +1,7 @@
 # draggable-items
 Draggable list of items for Vue.js
 
-![DEMO](./image/demo.gif)
+![DEMO](./_image/demo.gif)
 
 ## Installation
 This application depend on yarn, webpack, caddy.
