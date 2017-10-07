@@ -1,6 +1,8 @@
 import Vue from 'vue/dist/vue.esm'
 import _ from 'lodash'
 
+import './style.css'
+
 document.addEventListener('DOMContentLoaded', () => {
     const app = new Vue({
         el: '#app',
