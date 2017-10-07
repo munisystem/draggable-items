@@ -2,7 +2,9 @@
   "name": "draggable-items",
   "version": "0.0.1",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.4.4"
+  },
   "devDependencies": {
     "webpack": "^3.6.0"
   }
